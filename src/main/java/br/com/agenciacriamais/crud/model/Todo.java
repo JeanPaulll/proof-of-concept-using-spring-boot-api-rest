@@ -8,12 +8,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * @author Jean Paul - <jeanpaulwebb@gmail.com>
  * @class Todo
  * @description Class responsible for the 'TODO'
  * @date 05/04/2022
  */
+@Getter
+@Setter
 @Entity
 public class Todo {
 	
